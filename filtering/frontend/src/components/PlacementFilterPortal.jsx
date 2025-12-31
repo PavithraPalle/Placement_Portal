@@ -30,7 +30,7 @@ const PlacementFilterPortal = () => {
     setError('');
     try {
       const res = await axios.post(
-        'http://localhost:5000/api/students/filter-eligible',
+        'https://placement-portal-s8jq.onrender.com/api/students/filter-eligible',
         filters
       );
 
